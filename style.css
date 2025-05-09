@@ -1,0 +1,99 @@
+:root{
+    --main: #f8c8dc;
+    --primary: #ff69b4;
+    --secondary: #d04894;
+    --teks: #333;
+    --wbagr: #fff0f5;
+    }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: var(--secondary); 
+    color: white;
+    padding: 60px 20px;
+    text-align: center
+}
+
+  header h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+
+
+.btn {
+    background-color: white;
+    color: #d04894;
+    margin: 20px;
+    padding:  12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0,7s;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+        
+}
+
+@keyframes bounce {
+    0%, 25%, 50%, 75%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+  }
+
+  .btn-primary:hover {
+    background-color: pink;
+    transition: 0.7s;
+    }
+
+    .features {
+        padding: 60px 20px;
+        background-color: white;
+        text-align: center;
+    }
+    
+    .features h2 {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+    
+    .features-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        padding: 0 20px;
+    }
+    
+    .features {
+        background: var(--main);
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        font-size: 0.95rem;
+        color: var(--wbagr);
+    }
+    
+    .features h3 {
+        color: var(--wbagr);
+        margin-top: 15px;
+    }
+
+    
